@@ -1,0 +1,63 @@
+.radio-image {
+    border: 5px solid transparent;
+    border-radius: 100%;
+    width: 200px;
+}
+
+
+input:checked + .radio-image {
+    border: 5px solid steelblue;
+}
+
+
+input {
+
+    display: none;
+}
+
+
+.hidden {
+
+    display: none;
+}
+
+
+body {
+
+    background-image: url('./img/RPS-background.png')
+}
+
+
+.hands {
+
+    border: dotted; 
+    background-color: black;  
+
+    color: aliceblue; 
+    font-size: 300%; 
+}
+
+
+header {
+
+    color: white; 
+    font-size: 150%;
+    background-color: black;  
+}
+
+
+h1 {
+
+    color: aliceblue; 
+    font-size: 150%; 
+    background-color: black;  
+
+
+}
+
+.game {
+
+    color: white; 
+    background-color: black;  
+
+}
