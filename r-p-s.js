@@ -1,17 +1,10 @@
-import { compare } from './test/RPSTEST.js/index.js'; 
+import computerChoice from './computerChoice.js';
+import compare from './RPSTEST.js';
 
 const myButton = document.getElementById('my-button');
-const compG = computerChoice (); 
-const personG = userChoice (); 
 
-let computerChoice = Math.floor(Math.random() * 3);
-if (computerChoice < 1) {
-    computerChoice = 'rock';
-} else if (computerChoice < 2) {
-    computerChoice = 'paper';
-} else {
-    computerChoice = 'scissors';
-}
+let getRandomNum = Math.floor(Math.random() * 3);
+
 
 
 const makeGuess = () => {

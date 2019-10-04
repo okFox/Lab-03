@@ -1,23 +1,23 @@
-export const compare = (compG, personG) => {
+
+const compare = (compG, personG) => {
     if (compG === personG) {
-        throw 'TIE!';
+        return 'TIE!';
     }
 
 
     if (compG === 'paper') {
         if (personG === 'rock') {
-            throw 'WIN!';
-        } else {
-            throw 'LOSE!';
+            return 'LOSE!';
+
         }
     }
-
+/*
 
     if (compG === 'rock') {
         if (personG === 'scissors') {
-            throw 'WIN!';
+            return 'WIN!';
         } else {
-            throw 'LOOSE!';
+            return 'LOOSE!';
         }
     }
 
@@ -25,11 +25,13 @@ export const compare = (compG, personG) => {
 
     if (compG === 'scissors') {
         if (personG === 'rock') {
-            throw 'LOSE!';
+            return 'LOSE!';
         } else {
-            throw 'WIN!';
+            return 'WIN!';
         }
     }
-
+*/
 
 };
+
+export default compare;

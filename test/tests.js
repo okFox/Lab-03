@@ -1,1 +1,1 @@
-import './RPSTEST.js';
+import './compare.test.js';
